@@ -16,12 +16,12 @@ import ModalScreen from '../screens/ModalScreen';
 import NotFoundScreen from '../screens/NotFoundScreen';
 import TabOneScreen from '../screens/TabOneScreen';
 import TabTwoScreen from '../screens/TabTwoScreen';
-import LinkingConfiguration from './LinkingConfiguration';
+// import LinkingConfiguration from './LinkingConfiguration';
 
 export default function Navigation({ colorScheme }) {
   return (
     <NavigationContainer
-      linking={LinkingConfiguration}
+      // linking={LinkingConfiguration}
       // theme={colorScheme === 'dark' ? DarkTheme : DefaultTheme}
       theme={DefaultTheme}>
       <RootNavigator />
