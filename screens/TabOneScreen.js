@@ -2,10 +2,9 @@ import * as React from 'react';
 import { StyleSheet } from 'react-native';
 import PreviewScreenInfo from '../components/PreviewScreenInfo';
 import { View } from '../components/Themed';
-import { RootTabScreenProps } from '../types';
 
 
-export default function TabOneScreen({ navigation }: RootTabScreenProps<'TabOne'>) {
+export default function TabOneScreen({ navigation }) {
   return (
     <View style={styles.container}>
       <View style={styles.separator} lightColor="#eee" darkColor="rgba(255,255,255,0.1)" />
