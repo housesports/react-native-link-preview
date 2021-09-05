@@ -6,3 +6,5 @@ React Native Dynamic Plug &amp; Play Link Preview Component
 [Launch Expo Snack Demo](https://snack.expo.dev/@thehouse/github.com-housesports-react-native-link-preview)
 
 This project was bootstrapped with [Expo](https://expo.dev/).
+
+Launch simulator from Expo client to preview on device.
