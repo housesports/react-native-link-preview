@@ -34,8 +34,8 @@ The component shall accommodate all links. Error cases shall display error and r
 - youtube
 - google search result
 
-Design:
-![Link Preview Design Example](/assets/images/IMG_0509.jpeg)
+Design:\
+![Link Preview Design Example](/assets/images/IMG_0509.jpeg)\
 ![Link Preview Design Example](/assets/images/IMG_0510.jpeg)
 
 **Deliverables:**
