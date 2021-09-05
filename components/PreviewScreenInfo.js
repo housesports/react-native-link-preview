@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { StyleSheet, FlatList } from 'react-native';
-import LinkPreview from './LinkPreview';
+import LinkPreview from './react-native-link-preview/LinkPreview';
 import { Text, View } from './Themed';
 
 
