@@ -1,6 +1,5 @@
-import { StatusBar } from 'expo-status-bar';
 import * as React from 'react';
-import { Platform, StyleSheet, Image } from 'react-native';
+import { StyleSheet, Image } from 'react-native';
 import { View } from '../components/Themed';
 
 
@@ -11,9 +10,6 @@ export default function ModalScreen() {
         style={styles.image}
         source={require('../assets/images/houseup.png')}
       />
-
-      {/* Use a light status bar on iOS to account for the black space above the modal */}
-      <StatusBar style={Platform.OS === 'ios' ? 'light' : 'auto'} />
     </View>
   );
 }
